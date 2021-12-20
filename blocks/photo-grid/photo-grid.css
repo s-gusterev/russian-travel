@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   place-items: center;
-  column-gap: 16px;
-  row-gap: 13px;
+  gap: 16px;
 }
 
 @media screen and (max-width: 1152px) {
@@ -32,4 +31,3 @@
     gap: 12px;
   }
 }
-
