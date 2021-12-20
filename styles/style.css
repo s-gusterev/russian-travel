@@ -1,7 +1,12 @@
+/* Page */
 .page {
   background-color: #2a2c2f;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   color: #fff;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .page__container {
@@ -12,7 +17,7 @@
 .page__header {
   margin: 28px 48px 56px;
 }
-
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -764,8 +769,4 @@
   .page__footer {
     margin-top: 0;
   }
-
-
-
-
 }
