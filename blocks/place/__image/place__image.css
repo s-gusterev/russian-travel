@@ -1,9 +1,27 @@
 .place__image {
+  /* flex-grow: 0; */
+
+  display: block;
+  width: 100%;;
+  object-fit: cover;
+}
+
+/* .place__image {
   width: 100%;
 }
 
 @media screen and (max-width: 730px) {
   .place__image {
     margin-bottom: 32px;
+  }
+} */
+
+.place__image-container {
+max-width: 460px;/* flex-basis: 46.747%; */
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image-container {
+    max-width: 440px;
   }
 }

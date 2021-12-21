@@ -1,4 +1,15 @@
 .place__website {
+  flex-basis: 484px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    flex-basis: 456px;
+  }
+}
+
+/* .place__website {
   align-self: end;
 }
 
@@ -8,4 +19,4 @@
     margin-right: 16px;
     margin-bottom: 32px;
   }
-}
+} */

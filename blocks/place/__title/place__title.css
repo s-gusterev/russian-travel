@@ -1,4 +1,19 @@
 .place__title {
+  max-width: 460px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.05;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+/* .place__title {
   font-size: 72px;
   font-weight: 900;
   line-height: 1.05;
@@ -21,5 +36,5 @@
     line-height: 1.1;
     margin: 0 16px 32px 16px;
   }
-}
+} */
 

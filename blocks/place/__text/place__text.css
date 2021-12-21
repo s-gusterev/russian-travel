@@ -1,6 +1,17 @@
-@media screen and (max-width: 730px) {
+.place__text {
+  /* flex-grow: 1; */
+  max-width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    max-width: 456px;
+  }
+}
+
+/* @media screen and (max-width: 730px) {
   .place__text {
     margin-left: 16px;
     margin-right: 16px;
   }
-}
+} */
