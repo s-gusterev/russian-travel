@@ -2,7 +2,7 @@
   /* flex-grow: 0; */
 
   display: block;
-  width: 100%;;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -17,7 +17,10 @@
 } */
 
 .place__image-container {
-max-width: 460px;/* flex-basis: 46.747%; */
+  max-width: clamp(440px, 35.95vw, 460px);
+  /* max-width: 460px; */
+
+  /* flex-basis: 46.747%; */
 }
 
 @media screen and (max-width: 1024px) {

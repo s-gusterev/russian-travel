@@ -1,6 +1,7 @@
 .place__text {
   /* flex-grow: 1; */
   max-width: 484px;
+  /* max-width: clamp(456px, 37.9vw, 484px); */
 }
 
 @media screen and (max-width: 1024px) {
