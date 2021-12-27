@@ -1,5 +1,6 @@
 .intro__title {
-  font-size: 54px;
+  font-size: clamp(32px, 7.03125vw, 54px);
+  /* font-size: 54px; */
   font-weight: 900;
   line-height: 1.07;
   text-align: left;

@@ -1,9 +1,12 @@
 .page__cover {
   max-width: 1184px;
   margin: 0 auto 92px;
-  display: grid;
-  place-items: center;
 }
+
+/* .page__cover:hover {
+  opacity: .8;
+} */
+
 
 @media screen and (max-width: 425px) {
   .page__cover {

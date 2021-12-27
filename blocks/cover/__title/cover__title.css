@@ -1,17 +1,14 @@
 .cover__title {
-  font-size: 72px;
+  font-size: clamp(32px, 9.375vw, 72px);
+  /* font-size: 72px; */
   font-weight: 900;
   line-height: 1.05;
   text-align: center;
   max-width: 560px;
-  margin: 0 auto 32px;
+  margin: 0 auto clamp(16px, 4.166666666666667vw, 32px);
   color: #fff;
   text-decoration: none;
-  display: inline-block;
-  grid-row: 1/-1;
-  grid-column: 1/-1;
-  z-index: 1;
-  align-self: end;
+  z-index: 2;
 }
 
 .cover__title:hover~.cover__overlay::before {
@@ -21,9 +18,9 @@
 
 @media screen and (max-width: 505px) {
   .cover__title {
-    font-size: 32px;
+    /* font-size: 32px; */
     line-height: 1.1;
     max-width: 255px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
   }
 }
