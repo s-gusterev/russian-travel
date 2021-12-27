@@ -6,7 +6,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1152px) {
+/* @media screen and (max-width: 1152px) {
   .places__item {
     margin-left: auto;
     margin-right: auto;
@@ -30,4 +30,4 @@
   .places__item {
     margin-bottom: 50px;
   }
-}
+} */

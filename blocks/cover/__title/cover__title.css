@@ -19,11 +19,21 @@
   opacity: .8;
 }
 
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: clamp(32px, 9.375vw, 72px);
+    max-width: clamp(255px, 72.91vw, 560px);
+    /* line-height: 1.1; */
+    /* max-width: 255px; */
+    /* margin-bottom: 16px; */
+  }
+}
+
 @media screen and (max-width: 505px) {
   .cover__title {
-    font-size: 32px;
-    line-height: 1.1;
-    max-width: 255px;
+    /* font-size: 32px; */
+    /* line-height: 1.1; */
+    /* max-width: 255px; */
     margin-bottom: 16px;
   }
 }
