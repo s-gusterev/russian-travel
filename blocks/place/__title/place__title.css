@@ -1,6 +1,7 @@
 .place__title {
-  max-width: 460px;
+  /* max-width: 460px; */
   font-size: 72px;
+  /* font-size: clamp(42px, 5.625vw, 72px); */
   font-weight: 900;
   line-height: 1.05;
   text-align: left;
@@ -9,7 +10,16 @@
 
 @media screen and (max-width: 1024px){
   .place__title {
-    max-width: 440px;
+    font-size: clamp(42px - 7.03125vw, 7.03125vw, 72px);
+
+    /* max-width: 440px; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: clamp(32px, 5.46875vw, 42px);
+    /* max-width: 440px; */
   }
 }
 
