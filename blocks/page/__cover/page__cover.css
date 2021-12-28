@@ -3,11 +3,6 @@
   margin: 0 auto 92px;
 }
 
-/* .page__cover:hover {
-  opacity: .8;
-} */
-
-
 @media screen and (max-width: 425px) {
   .page__cover {
     margin-bottom: 64px;

@@ -13,12 +13,6 @@
   }
 }
 
-/* @media screen and (max-width: 730px) {
-  .footer__copyright {
-    margin-right: 0;
-  }
-} */
-
 @media screen and (max-width: 505px) {
   .footer__copyright {
     margin-left: 16px;

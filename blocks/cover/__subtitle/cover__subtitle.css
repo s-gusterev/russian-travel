@@ -1,6 +1,5 @@
 .cover__subtitle {
   font-size: clamp(14px, 2.34375vw, 18px);
-  /* font-size: 18px; */
   font-weight: 400;
   line-height: 1.2;
   text-align: center;
@@ -13,8 +12,7 @@
 
 @media screen and (max-width: 505px) {
   .cover__subtitle {
-    /* font-size: 14px; */
-    /* line-height: 1.15; */
+    line-height: 1.15;
     max-width: 288px;
   }
 }

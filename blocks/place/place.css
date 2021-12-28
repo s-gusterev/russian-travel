@@ -11,7 +11,6 @@
     max-width: clamp(720px, 0.90625vw, 928px);
     grid-template-columns: clamp(340px, 42.96875vw, 440px) clamp(352px, 44.53125vw, 456px);
     column-gap: clamp(28px, 3.125vw, 32px);
-    /* column-gap: 32px; */
   }
 }
 
@@ -19,43 +18,9 @@
   .place {
     max-width: clamp(600px, 93.75vw, 720px);
     grid-template-columns: clamp(250px, 44.27083333333333vw, 340px) clamp(250px, 45.83333333333333vw, 352px);
-    /* column-gap: clamp(28px, 3.125vw, 32px); */
-    /* column-gap: 32px; */
   }
 }
 
-/* @media screen and (max-width: 960px) {
-  .place {
-    max-width: 876px;
-    grid-template-columns: 425px 423px;
-
-  }
-} */
-/* column-gap: 28px; */
-/* @media screen and (max-width: 890px) {
-  .place {
-    max-width: 845px;
-    grid-template-columns: 410px 413px;
-  }
-}
-
-@media screen and (max-width: 860px) {
-  .place {
-    max-width: 812px;
-    grid-template-columns: 390px 393px;
-  }
-} */
-
-/* @media screen and (max-width: 820px) {
-  .place {
-
-    grid-template-columns: 340px 352px;
-
-  }
-} */
-
-/* max-width: 928px; */
-/* column-gap: 28px; */
 @media screen and (max-width: 730px) {
   .place {
     display: block;

@@ -3,9 +3,3 @@
   justify-content: space-between;
   align-items: flex-end;
 }
-
-/* @media screen and (max-width: 425px) {
-  .header {
-    align-items: center;
-  }
-} */
