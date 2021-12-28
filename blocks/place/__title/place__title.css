@@ -10,7 +10,6 @@
 @media screen and (max-width: 1024px) {
   .place__title {
     font-size: clamp(54px, 7.03125vw, 72px);
-    line-height: 1.1;
     max-width: 330px;
   }
 }
@@ -18,6 +17,7 @@
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: clamp(32px, 5.46875vw, 42px);
+    line-height: 1.1;
   }
 }
 

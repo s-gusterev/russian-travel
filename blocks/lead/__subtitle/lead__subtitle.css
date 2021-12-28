@@ -4,7 +4,7 @@
   line-height: 1.2;
   text-align: center;
   margin: 0 auto 64px;
-  max-width: clamp(288px, 50vw, 640px);
+  max-width: 640px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
+    max-width: clamp(288px, 83.3vw, 640px);
     margin-bottom: clamp(40px, 7.291666666666667vw, 56px);
   }
 }

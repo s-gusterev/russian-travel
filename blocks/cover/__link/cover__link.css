@@ -1,7 +1,6 @@
 .cover__link {
   text-decoration: none;
   min-height: clamp(200px, 57.8125vw, 740px);
-  /* max-width: 1184px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
