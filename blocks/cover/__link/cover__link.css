@@ -1,6 +1,6 @@
 .cover__link {
   text-decoration: none;
-  min-height: clamp(200px, 57.8125vw, 740px);
+  min-height: clamp(640px, 57.8125vw, 740px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,4 +27,10 @@
 
 .cover__link:hover:before {
   opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    min-height: clamp(200px, 62.5vw, 640px);
+  }
 }
