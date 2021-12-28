@@ -10,9 +10,52 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 748px) {
   .cover__title {
     line-height: 1.1;
-    max-width: 255px;
+    max-width: 493px;
   }
 }
+
+@media screen and (max-width: 659px) {
+  .cover__title {
+    max-width: 434px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cover__title {
+    max-width: 382px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .cover__title {
+    max-width: 336px;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .cover__title {
+    max-width: 333px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .cover__title {
+    max-width: 293px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .cover__title {
+    max-width: 258px;
+  }
+}
+
+@media screen and (max-width: 344px) {
+  .cover__title {
+    max-width: 227px;
+  }
+}
+
